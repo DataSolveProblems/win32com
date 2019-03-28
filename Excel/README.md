@@ -2,7 +2,7 @@
 
 **example 1**
 
-Link to existing Excel workbook and worksheet
+**Link to existing Excel workbook and worksheet**
 ``` python
 import win32com.client**
 
@@ -12,7 +12,7 @@ wb = ExcelApp.Workbooks.Open(FILE_PATH)
 wsData = wb.Worksheets('<worksheet name>')
 ```
 
-Dictionary Enumeration
+**Dictionary Enumeration**
 ``` python
 XLDirection = dict(xlDown=-4121, xlToLeft=-4159, xlToRight=-4161, xlUp=-4162)
 LastRow = wsData.cells(wsData.api.rows.count, 'A').end(
